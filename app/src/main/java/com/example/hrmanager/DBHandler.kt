@@ -125,6 +125,7 @@ class DBHandler(context: Context, factory:SQLiteDatabase.CursorFactory?)
         db.update(tableName,cv,"$keyID=?", arrayOf(person.id.toString()))
         // close db
         db.close()
+        // this will update
 
     }
 
